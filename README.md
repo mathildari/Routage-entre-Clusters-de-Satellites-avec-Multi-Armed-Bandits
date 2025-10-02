@@ -22,8 +22,8 @@ Objectif : optimiser le chemin de transmission entre satellites en équilibrant 
 - **UCB** converge le plus rapidement vers l’optimal.  
 
 ## 👩‍💻 Auteurs
-- Loïc Capdeville  
 - Daria Garnier  
+- Loïc Capdeville  
 - Alexy Fievet  
 - Pierre Durollet  
 
