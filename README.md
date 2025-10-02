@@ -1,2 +1,32 @@
-# Routage-entre-Clusters-de-Satellites-avec-Multi-Armed-Bandits
-Ce projet s’intéresse au routage dans des constellations de nanosatellites organisées en clusters. Chaque cluster contient plusieurs satellites, dont deux « nœuds critiques » assurant la communication inter-cluster. Le défi principal est de sélectionner un chemin optimal entre un satellite source et une destination située dans un autre cluster.
+# 🚀 Routage Satellite avec Multi-Armed Bandits (MAB)
+
+## 📌 Description
+Ce projet explore le **routage inter-cluster de nanosatellites** en utilisant des algorithmes de **Multi-Armed Bandits (MAB)**.  
+Objectif : optimiser le chemin de transmission entre satellites en équilibrant **latence** et **consommation énergétique**.
+
+## 🛰️ Contexte
+- Réseau de nanosatellites organisés en **clusters**.  
+- Chaque cluster possède **2 passerelles critiques** permettant la communication inter-cluster.  
+- Le problème est modélisé comme un **bandit manchot** : chaque chemin est un bras, et l’algorithme apprend à choisir les meilleurs.
+
+## ⚙️ Méthodes implémentées
+- **Greedy** – exploitation pure (inefficace).  
+- **ε-Greedy** – compromis exploration/exploitation.  
+- **ε-decaying Greedy** – exploration décroissante, meilleure convergence.  
+- **UCB** – borne de confiance supérieure, convergence rapide.  
+
+## 📊 Résultats
+- Greedy ≈ choix aléatoire.  
+- ε-Greedy conserve une exploration trop forte.  
+- ε-decaying Greedy & UCB atteignent les meilleures performances.  
+- **UCB** converge le plus rapidement vers l’optimal.  
+
+## 👩‍💻 Auteurs
+- Loïc Capdeville  
+- Daria Garnier  
+- Alexy Fievet  
+- Pierre Durollet  
+
+Projet réalisé à l’**ENSEEIHT – Sciences du Numérique**.  
+
+---
