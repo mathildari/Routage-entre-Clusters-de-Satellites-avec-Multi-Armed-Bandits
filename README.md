@@ -1,0 +1,2 @@
+# Routage-entre-Clusters-de-Satellites-avec-Multi-Armed-Bandits
+Ce projet s’intéresse au routage dans des constellations de nanosatellites organisées en clusters. Chaque cluster contient plusieurs satellites, dont deux « nœuds critiques » assurant la communication inter-cluster. Le défi principal est de sélectionner un chemin optimal entre un satellite source et une destination située dans un autre cluster.
