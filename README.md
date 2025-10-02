@@ -21,11 +21,6 @@ Objectif : optimiser le chemin de transmission entre satellites en équilibrant 
 - ε-decaying Greedy & UCB atteignent les meilleures performances.  
 - **UCB** converge le plus rapidement vers l’optimal.  
 
-## 👩‍💻 Auteurs
-- Daria Garnier  
-- Loïc Capdeville  
-- Alexy Fievet  
-- Pierre Durollet  
 
 Projet réalisé à l’**ENSEEIHT – Sciences du Numérique**.  
 
